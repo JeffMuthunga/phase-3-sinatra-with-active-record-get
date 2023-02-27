@@ -24,6 +24,8 @@ gem "sqlite3", "~> 1.4"
 # https://github.com/jarmo/require_all
 gem "require_all"
 
+gem 'webrick', '~> 1.3', '>= 1.3.1'
+
 # These gems will only be used when we are running the application locally
 group :development do
   # Used to generate seed data
@@ -35,6 +37,7 @@ group :development do
   gem "rerun"
 
   gem "pry"
+  
 end
 
 # These gems will only be used when we are running tests
